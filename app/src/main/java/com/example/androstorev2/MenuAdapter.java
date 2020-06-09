@@ -42,7 +42,6 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
         String gambarbaru = menubaru.getGambar();
         String harga = menubaru.getHarga();
         String nama = menubaru.getNama();
-        String desc = menubaru.getDeskripsi();
 
         holder.tvnamadata.setText(nama);
         holder.tvhargadata.setText(harga);
